@@ -28,8 +28,6 @@ fn app() -> Html {
     }
 }
 
-
-
 fn main() {
     yew::start_app::<App>();
 }
