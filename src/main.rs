@@ -19,9 +19,11 @@ fn app() -> Html {
     };
 
     html! {
-        <div>
-            <div ><button {onclick}><div id="text">{ "+1" }</div></button></div>
-            <p><div id="text">{ state.value }</div></p>
+        <div id="container">
+            <div id="body">
+                <button {onclick}><div id="text">{ "+1" }</div></button>
+                <div id="p"><div id="text">{ state.value }</div></div>
+            </div>
         </div>
     }
 }
