@@ -1,0 +1,36 @@
+body {
+  background: rgba(0, 0, 0, 0.84);
+}
+
+button {
+  padding: 100px;
+  padding-left: 200px;
+
+  display: flex;
+
+  background: #18345d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+}
+
+p {
+  display: flex;
+
+  background: #831431;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+}
+
+#text {
+  left: calc(50% - 112px / 2 - 40px);
+  top: calc(50% - 120px / 2 - 103px);
+
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 120px;
+  /* identical to box height */
+
+  color: #dda94b;
+}
